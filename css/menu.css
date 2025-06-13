@@ -1,0 +1,164 @@
+body{
+    background-color: #D133FF;
+    font-family: Arial;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu >li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'open sans';
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #CD7D35;
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: "Open sans";
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.subm{
+position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.subm li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: "Open sans";
+    text-decoration: none;
+}
+
+.menu li:hover .subm{
+    visibility: visible;
+    opacity: 1;
+}
+
+h2{
+	text-align: center;
+	font-family: "open sans";
+	color: black;
+}
+	
+p{
+	text-align: center;
+	font-family: "open sans";
+	color: black;
+}
+.img{
+width: 300px;
+height: 300px;
+padding: 10px;
+margin: 10px;
+border: 2px solid black;
+display: block;
+margin: 0px auto;
+}
+
+
+.video{ 
+width:500px;
+height:500px;
+float: center;
+}
+
+p.im{
+color: blue;
+font-family: cursive;
+font-size: x-large;
+}
+
+p.hif{
+color: green;
+font-family: cursive;
+font-size: x-large;
+}
+p.vi{
+color: orange;
+font-family: cursive; font-size: x-large;
+}
+
+#tabla {
+  margin: 150px auto;
+  width: 600px;
+  background-color: white;
+}
+
+/* Estilos de la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: solid 1px black;
+  padding: 5px;
+}
+
+/* Encabezado de la tabla */
+thead {
+  background-color: #246355;
+  border-bottom: solid 5px #0F362D;
+  color: white;
+}
+
+/* Filas pares */
+tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+/* Efecto hover */
+tr:hover td {
+  background-color: #369681;
+  color: white;
+}
